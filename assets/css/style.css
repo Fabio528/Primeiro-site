@@ -187,7 +187,7 @@ body{
         width: 90%;
         height: auto;
     }
-    .input{
+    .input-group{
         flex-direction: column;
         overflow-y: scroll;
         flex-wrap: nowrap;
@@ -203,4 +203,217 @@ body{
     .gender-input{
         margin-top: 0.5rem;
     }
+
+}
+/**  Estilo para o formulario login **/
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#FFEFD5, #FFDAB9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    font-size: 3vw;
+    color: #BC8F8F;
+}
+
+.left-login-image{
+    width: 35vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #FFDAB9;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #9c949456;
+}
+
+.card-login > h1{
+    color: #BC8F8F;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #FFEFD5;
+    color: #BC8F8F;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #807a7a56;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #BC8F8F;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #BC8F8F;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #BC8F8F;
+    background: #FFEFD5;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #807a7a56;
+}
+
+
+/**  Estilo para o formulario fale conosco **/
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #FFDAB9;
+    width: 500px;
+    box-shadow: 0px 10px 40px #807a7a56;
+}
+
+section h2{
+    color: #BC8F8F;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: #BC8F8F;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid  #FFEFD5;
+    color: #BC8F8F;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: #FFEFD5;
+    color: #101026; 
+    border-radius: 16px;   
+}
+
+/** css da pagina obrigado **/
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(#FFEFD5, #FFDAB9);
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: #BC8F8F;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: #BC8F8F;
+    margin-bottom: 50px;
+}
+
+.btg{
+    padding: 15px 55px;
+    background: #FFDAB9;
+    text-decoration: none;
+    color: #BC8F8F;
+    font-size: 10px;
+    transition: all 0.5s;
+}
+
+.btg:hover{
+    border-radius: 16px;
 }
