@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulario de sócio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/amusement-park-animate.svg">
+        </div>
+        <div class="form">
+            <div id="formularioCadastro" style="display: none;">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="nomecompleto">Nome Completo</label>
+                            <input id="nomecompleto" type="text" name="nomecompleto" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="senha">Senha</label>
+                            <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="confsenha">Confirme sua senha</label>
+                            <input id="confsenha" type="password" name="confsenha" placeholder="Confirme sua senha" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="cpf">CPF</label>
+                            <input id="cpf" type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="datanasc">Data Nascimento</label>
+                            <input id="datanasc" type="date" name="datanasc" placeholder="Digite seu primeiro nome" required>
+                        </div>
+                    </div>
+                    
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-inputs">
+                                <input type="radio" id="mulher" name="genero">
+                                <label for="mulher">Feminino</label>
+                            </div>
+
+                            <div class="gender-inputs">
+                                <input type="radio" id="homem" name="genero">
+                                <label for="homem">Masculino</label>
+                            </div>
+
+                            <div class="gender-inputs">
+                                <input type="radio" id="outros" name="genero">
+                                <label for="outros">Outros</label>
+                            </div>
+
+                            <div class="gender-inputs">
+                                <input type="radio" id="none" name="genero">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>                   
+                </form>
+                <input id="btnCadastro" class="btnBonito" type='button' onclick="confirmadeletar('formularioCadastro')" value='Logar'>
+            </div>
+          
+            <div id="formularioLogin">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Login</h1>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="nomecompleto">Nome Completo</label>
+                            <input id="nomecompleto" type="text" name="nomecompleto" placeholder="Digite seu nome completo" required>
+                        </div>
+            
+            
+                        <div class="input-box">
+                            <label for="senha">Senha</label>
+                            <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                        </div>
+            
+                    </div>
+                    
+                    <div class="login-button">
+                        <button><a href="index.html">Entrar</a></button>
+                    </div>
+                        <input id="btnCadastro" class="btnBonito" type='button' onclick="confirmadeletar('formularioCadastro')" value='Cadastre-se'> 
+                </form>
+                
+                
+            </div>
+
+
+        </div>    
+    </div>
+    
+    <br>
+    
+<script type="text/javascript">
+function confirmadeletar(el) {
+         var display = document.getElementById(el).style.display;
+        if(display == "none"){
+            document.getElementById('formularioCadastro').style.display = 'block';
+            document.getElementById('formularioLogin').style.display = 'none';
+            document.getElementById('btnCadastro').value = 'Logar';
+            
+        }
+        else{
+            document.getElementById('formularioCadastro').style.display = 'none';
+            document.getElementById('formularioLogin').style.display = 'block';
+            document.getElementById('btnCadastro').value = 'Cadastrar';
+        }
+    }
+</script>
+
+</body>
+
+</html>
