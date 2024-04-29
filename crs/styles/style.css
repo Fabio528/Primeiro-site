@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+
+*{
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#FFEFD5, #FFDAB9);
+    background-attachment: fixed;
+}
+
+section{
+    padding: 28px 8%;
+}
+
+.btn-default{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFDAB9;
+    border-radius: 12px;
+    padding: 10 14px;
+    font-weight: 600;
+    box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover{
+    background-color: #b6dbf1;  
+}
+
+.section-title{
+    color: #BC8F8F;
+    font-size: 1.563rem;
+}
+
+.section-subtitle{
+    font-size: 2.1875rem;
+}
