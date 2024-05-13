@@ -1,0 +1,179 @@
+3024 x 4032
+4256 x 2832
+
+</div>
+      <div class="carousel-item">
+        <img src="crs/images/ca.jpg" alt="Chicago" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="crs/images/la.jpg" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>  
+      </div>
+
+	img{
+       	 border-radius: 5% 20% 5% 15%;
+       	 height: 85vh;
+         width: 85vh;
+         box-shadow:  0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+	}
+
+
+<div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 users included</li>
+              <li>2 GB of storage</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 users included</li>
+              <li>10 GB of storage</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+           <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://placehold.co/600x400/png" alt="Los Angeles" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3 style="color: #BC8F8F;">Rollercoaster</h3>
+          <p>garanta o frio na barriga</p>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://placehold.co/600x400/png" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3 style="color: #BC8F8F;">Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div> 
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://placehold.co/600x400/png" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3 style="color: #BC8F8F;">New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>  
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <section id="regras">
+            <h2 class="section-title">Regras</h2>
+            <div class="rules">
+                <li>Entrar com bicicleta, mobilete e motorizadas em geral. Utilizar patins, skate, patinete, bicicleta, mobilete e motorizadas em geral.</li>
+                <li>Entrada ou permanência sem camisa, com camisa aberta, roupa de banho, ou quaisquer vestimentas inadequadas ao ambiente familiar.</li>
+                <li>Recolher latinhas ou qualquer outro material. </li>
+                <li>A entrada ou permanência com alimentos ou bebidas em qualquer recipiente vidros, caixa de isopor, sacolas ou bolsas.</li>
+                <li>A entrada ou permanência de ambulantes ou comércio de produtos, sem autorização, pedir qualquer tipo de ajuda financeira ou doações para os visitantes.</li>
+                <li>A entrada ou permanência com capacete, máscara ou quaisquer acessórios que cubram o rosto.</li>
+                <li>A entrada ou permanência de fogos de artifícios, armas brancas ou armas de fogo.</li>
+                <li>A entrada ou permanência com animais qualquer espécie e tamanho, exceto cão guia.</li>
+                <li>Fumar em ambientes fechados ou em ambientes que estejam sinalizados com o símbolo "proibido fumar".</li>
+                <li>Para uso de fantasias, atividades de fotografias e/ou filmagens profissionais, distribuição de brindes e panfletos ou qualquer tipo de divulgação (merchandising), somente com autorização.</li>
+                <li>Por medida de segurança, os aparelhos e atrações estão sujeitos a paradas devido à manutenção ou condições climáticas.</li>
+                <li>O Parque se reserva o direito de alterar os horários de abertura ou fechamento sem aviso prévio em caso de chuva ou por motivo de força maior.</li>
+            </div>    
+        </section>
+
+        <div id="Sobre">	
+			<div class="text"><h1 class="section-title""> <center> Sobre </center> </div> </h1> <br>
+				<h5><h1 class="section-title""> <center> Conheça um pouco da nossa história </center></h5>  </h1> <br>
+                    <div class="para">
+                        <p>A história do AdventureLand começa em 1970 quando um homem aficionado por brinquedos decidiu que iria criar um lugar mágico, aonde ele poderia ter a infância que ele sempre sonhou em ter.
+                        Anos trabalhando nesse projeto até que em 1974 ele finalmente inaugura o tão sonhado parque AdventureLand.</p>
+                        <p>Somos um parque de diversão que ja esta no mercado a 40 anos, a adventure land busca trazer de volta o tradicional parque de diversã"
+                        Voltado para diversão tanto de crianças tanto para adultos, a 40 anos trazendo paz e memorias afetivas para o publico.
+                        Sempre trazendo inovações é atrações novas nunca antes vistas, venha conhecer nosso incrivel parque.</p>
+                    </div>
+		</div>
+  

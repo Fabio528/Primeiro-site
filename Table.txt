@@ -1,0 +1,242 @@
+    <section class="pricing">
+
+            <!--Tabela 1-->>
+
+            <div class="table">
+                <div class="price">
+                    <h1>R$60</h1>
+                    <small>/mo</small>
+                </div>
+                <div class="shadow-container">
+                    <div class="table-header">
+                        <div class="title1">
+                            <h1>Padrão</h1>
+                            <p>Diversão ilimitada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-body">
+                    <div class="body-title">
+                        <h2>Lorem ipsum</h2>
+                        <p>Diversão para toda familia</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Brasil</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Alemanha</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-times"></i>
+                            <span>irã</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-times"></i>
+                            <span>Pais de gales</span>
+                        </li>    
+                    </ul>
+                </div>
+                <button>Compre agora</button>
+            </div>
+
+            <!--Tabela 2-->>
+
+            <div class="table">
+                <div class="price">
+                    <h1>R$90</h1>
+                    <small>/mo</small>
+                </div>
+                <div class="shadow-container">
+                    <div class="table-header">
+                        <div class="title1">
+                            <h1>Premium</h1>
+                            <p>Diversão Infinita</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-body">
+                    <div class="body-title">
+                        <h2>Lorem ipsum</h2>
+                        <p>Diversão para toda familia</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Brasil</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Alemanha</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Uruguai</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Espanha</span>
+                        </li>
+                    </ul>
+                </div>
+                <button>Compre agora</button>
+            </div>
+           
+
+             <!--Tabela 3-->>
+
+             <div class="table">
+                <div class="price">
+                    <h1>R$260</h1>
+                    <small>/mo</small>
+                </div>
+                <div class="shadow-container">
+                    <div class="table-header">
+                        <div class="title1">
+                            <h1>AdventureLand</h1>
+                            <p>Diversão alem do infinito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-body">
+                    <div class="body-title">
+                        <h2>Lorem ipsum</h2>
+                        <p>Diversão para toda familia</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Brasil</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Alemanha</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Uruguai</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            <span>Espanha</span>
+                        </li>    
+                    </ul>
+                </div>
+                <button>Compre agora</button>
+            </div>
+            
+        </section>
+
+
+
+
+.pricing{
+    background: #e9e9e9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.table{
+    margin: 4em 1.5em;
+    text-align: center;
+    position: relative;
+}
+
+.table-header{
+    width: 20em;
+    height: 13em;
+    background: linear-gradient(331deg, #321d58, #7344c8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path:
+    polygon(
+        0, 0,
+        100% 0%,
+        100% 80%,
+        50% 100%,
+        0 80%
+
+    );
+}
+
+.shadow-container{
+    filter: drop-shadow(
+        0 1em 1em rgba(0 , 0, 0, 0.2)
+    );
+}
+
+.price {
+    background: #fff;
+    width: 7em;
+    height: 7em;
+    position: absolute;
+    top: -3.5em;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1.5em 1em 1em 1em;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 
+    0 1em 1em rgba(0, 0, 0, 0.3);
+}
+
+.price h1{
+    font-size: 2.5em;
+    color: #673ab7;
+}
+
+.price small {
+    color: #999;
+}
+
+.title1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.title1 h1{
+    margin: 0.3em;
+    font-size: 1.8em;
+    letter-spacing: 4px;
+}
+
+.title1 p{
+    font-size: 0.6em;
+    letter-spacing: 1px;
+}
+
+.table-body{
+    width: 18em;
+    margin: -4em auto 0 auto;
+    padding: 4em 1em 1em 1em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 
+    0 0 4em rgb(0, 0, 0, .1);
+}
+
+.body-title h2{
+    margin: 1em 0 0.2em 0;
+    color: #222;
+}
+
+.body-title p{
+    color: #777;
+}
+.table ul {
+    list-style: none;
+    margin: 2em 0;
+}
+
+.table li {
+    padding: 1.3em 0;
+    color: #999;
+    font-size: 0.9em;
+}
