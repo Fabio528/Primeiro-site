@@ -22,14 +22,15 @@
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-hippo" id="nav_logo"> AdventureLand</i>
+          <a href="#preco-123">
+            <i class="fa-solid fa-hippo" id="nav_logo"> AdventureLand</i></a>
 
             <ul id="nav_lista">
                 <li class="nav-itens active">
                     <a href="#home">Inicio</a>
                 </li>
                 <li class="nav-itens">
-                    <a href="#Atracoes">Atrações</a>
+                    <a href="#menu">Atrações</a>
                 </li>
                 <li class="nav-itens">
                     <a href="#feedback">Avaliações</a>
@@ -43,8 +44,11 @@
             </ul>
 
             <button class="btn-default">
+              <a href="#preco-123">
                 Compre seu ingresso aqui
+              </a>
             </button>
+           
 
             <button id="mobile_btn">
                 <i class="fa-solid fa-bars"></i>
@@ -57,7 +61,7 @@
                     <a href="#home">Inicio</a>
                 </li>
                 <li class="nav-itens">
-                    <a href="#Atracoes">Atrações</a>
+                    <a href="#menu">Atrações</a>
                 </li>
                 <li class="nav-itens">
                     <a href="#feedback">Avaliações</a>
@@ -88,7 +92,7 @@
                 </p>
 
                 <div id="cta_buttons">
-                    <a href="#" class="btn-default">
+                    <a href="#menu" class="btn-default">
                         Ver atrações
                     </a>
 
@@ -104,7 +108,6 @@
             <div id="banner">
               <img src="crs/images/amusement-park-animate.svg" alt="">
             </div>
-            <div id="p1">Fulano</div>
 
         </section>
 
@@ -138,7 +141,7 @@
       <img src="crs/images/ga.jpg" alt="Chicago" class="d-block" style="width:100%">
       <div class="carousel-caption">
         <h3 style="color: #BC8F8F;">Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <p>Diversão ilimitada!</p>
       </div> 
     </div>
 
@@ -146,7 +149,7 @@
       <img src="crs/images/ka.jpg" alt="New York" class="d-block" style="width:100%">
       <div class="carousel-caption">
         <h3 style="color: #BC8F8F;">New York</h3>
-        <p>We love the Big Apple!</p>
+        <p>Its me mario!</p>
       </div>  
     </div>
     
@@ -258,7 +261,7 @@
                         <li> <i class="fa fa-check" aria-hidden="true"></i> alimentação inclusa </li>
                         </ul>
                       </div>
-                      <a href="#">compre já </a>
+                      <a href="#ingressos">compre já </a>
                     </div>
                   </div>
                   <!-- Fim -->
@@ -286,18 +289,27 @@
 			</table>
 		</center>
         -->
-    
+        <script type="text/javascript">
+          function confirmadeletar(el) {
+                   var display = document.getElementById(el).style.display;
+                  if(display == "none"){
+                      document.getElementById('').style.display = 'block';
+                      document.getElementById('').style.display = 'none';
+                      document.getElementById('').value = '';
+                      
+                  }
+                  else{
+                      document.getElementById('').style.display = 'none';
+                      document.getElementById('').style.display = 'block';
+                      document.getElementById('').value = 'Cadastrar';
+                  }
+              }
+          </script>
+
+
+
 
     </main>
-    <script src="crs/javascript/script.js"></script>
-    <script>
-        let opcao = confirm('Você tem mais de 18 anos?');
-        if(opcao==true){
-            alert('Maior de 18 anos');
-        }else{
-            window.location.href='https://google.com.br';
-        }
-        </script>
      
 </body>
 </html>
